@@ -5,6 +5,11 @@
   width: 90%;
   max-width: 960px;
   margin: 0 auto;
+  a {
+    img {
+      background-color: red;
+    }
+  }
   @media only screen and (min-width: $cut) {
     width: 80%;
   }
